@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Crystal_Small_PIN_1_3
+#
+DEF Crystal_Small_PIN_1_3 Y 0 40 N N 1 F N
+F0 "Y" 0 100 50 H V C CNN
+F1 "Crystal_Small_PIN_1_3" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Crystal*
+$ENDFPLIST
+DRAW
+S -30 -60 30 60 0 1 0 N
+P 2 0 1 15 -50 -30 -50 30 N
+P 2 0 1 15 50 -30 50 30 N
+X 1 1 -100 0 50 R 50 50 1 1 P
+X 3 3 100 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MXSocketDioded
+#
+DEF MXSocketDioded SW 0 40 Y Y 1 F N
+F0 "SW" 0 -50 50 H V C CNN
+F1 "MXSocketDioded" -150 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C -80 0 20 1 1 0 N
+C 80 0 20 1 1 0 N
+P 3 0 1 0 100 0 200 0 200 -100 N
+P 2 1 1 0 0 50 0 120 N
+P 2 1 1 0 100 50 -100 50 N
+P 2 1 1 8 150 -200 250 -200 N
+P 4 1 1 8 150 -100 250 -100 200 -200 150 -100 N
+X ~ 1 -200 0 100 R 50 50 1 1 P
+X ~ 2 200 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
